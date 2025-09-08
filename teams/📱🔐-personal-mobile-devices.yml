@@ -39,9 +39,9 @@ policies:
 queries:
 software:
   app_store_apps:
-  - app_store_id: "403858572"
-  - app_store_id: "1163852619"
-  - app_store_id: "431946152"
+#  - app_store_id: "403858572"
+#  - app_store_id: "1163852619"
+#  - app_store_id: "431946152"
 team_settings:
   features:
     enable_host_users: true

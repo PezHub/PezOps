@@ -32,8 +32,8 @@ name: No team
 policies:
 software:
   app_store_apps:
-  - app_store_id: "406056744"
-    setup_experience: true
+ # - app_store_id: "406056744"
+ #   setup_experience: true
   packages:
   - categories:
     - Productivity

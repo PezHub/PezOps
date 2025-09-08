@@ -38,8 +38,8 @@ org_settings:
       metadata:
       metadata_url: https://dev-16134854.okta.com/app/exkhtcahqpIxIVYps5d7/sso/saml/metadata
     end_user_license_agreement:
-    volume_purchasing_program:
-    - location: Fleet Device Management Inc.
+#    volume_purchasing_program:
+#    - location: Fleet Device Management Inc.
     # Omit the teams field entirely to apply to all teams
   org_info:
     contact_url: https://fleetdm.com/company/contact
