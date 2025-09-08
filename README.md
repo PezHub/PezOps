@@ -52,3 +52,5 @@ An admin can enable GitOps mode in **Settings** > **Integrations** > **Change ma
 
 Note that this is a UI-only setting. API permissions are restricted based on user role.
 
+Gabe was here!
+
