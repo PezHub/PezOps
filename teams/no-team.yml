@@ -1,10 +1,57 @@
-# Teams are available in Fleet Premium.
-
-# This file updates policies, controls, and software for hosts assigned to "No team."
-
-# To update queries and agent options for hosts assigned to "No team," use the default.yml file.
-
+controls:
+  enable_disk_encryption: false
+  ios_updates:
+    deadline:
+    minimum_version:
+  ipados_updates:
+    deadline:
+    minimum_version:
+  macos_migration:
+    enable: false
+    mode:
+    webhook_url:
+  macos_settings:
+    custom_settings:
+    - path: ../lib/no-team/profiles/qa-disable-guest-account.mobileconfig
+  macos_setup: 'TODO: update with your macos_setup configuration'
+  macos_updates:
+    deadline:
+    minimum_version:
+  scripts:
+  windows_enabled_and_configured: true
+  windows_migration_enabled: true
+  windows_require_bitlocker_pin: false
+  windows_updates:
+    deadline_days:
+    grace_period_days:
 name: No team
 policies:
-controls: # This cannot be set here and in default.yml
 software:
+  app_store_apps:
+  - app_store_id: "406056744"
+    setup_experience: true
+  packages:
+  - categories:
+    - Productivity
+    hash_sha256: c228bdf3708ea280425f2895d9ad8c0bb48a9c524ba7525ab21b0ecd3dfe6510
+      # 1Password (1Password-8.11.8-aarch64.zip) version 8.11.8
+    install_script:
+      path: ../lib/no-team/scripts/1password-darwin-install
+    setup_experience: true
+    uninstall_script:
+      path: ../lib/no-team/scripts/1password-darwin-uninstall
+    url: https://downloads.1password.com/mac/1Password-8.11.8-aarch64.zip
+  - hash_sha256: ee16cb40bd412c7a56413961b9ca787cda39546d31e70f63544b4a69a79ddcc2
+      # Tailscale (Tailscale-1.74.0-macos.pkg) version 1.74.0
+    install_script:
+      path: ../lib/no-team/scripts/tailscale-darwin-install
+    setup_experience: true
+    uninstall_script:
+      path: ../lib/no-team/scripts/tailscale-darwin-uninstall
+team_settings:
+  webhook_settings:
+    failing_policies_webhook:
+      destination_url:
+      enable_failing_policies_webhook: false
+      host_batch_size: 0
+      policy_ids:
