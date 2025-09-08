@@ -15,11 +15,11 @@ agent_options:
   overrides:
 labels:
 org_settings:
-  certificate_authorities: null
-    custom_scep_proxy: []
-    digicert: []
-    hydrant: []
-    ndes_scep_proxy: []
+#  certificate_authorities: null
+#    custom_scep_proxy: []
+#    digicert: []
+#    hydrant: []
+#    ndes_scep_proxy: []
   features:
     enable_host_users: true
     enable_software_inventory: true
@@ -44,6 +44,8 @@ org_settings:
       metadata_url: https://dev-16134854.okta.com/app/exkhtcahqpIxIVYps5d7/sso/saml/metadata
     end_user_license_agreement:
     volume_purchasing_program:
+    - location: Fleet Device Management Inc.
+    # Omit the teams field entirely to apply to all teams
   org_info:
     contact_url: https://fleetdm.com/company/contact
     org_logo_url:
