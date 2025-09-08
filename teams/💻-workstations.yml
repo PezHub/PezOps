@@ -21,7 +21,10 @@ controls:
   ipados_updates:
     deadline:
     minimum_version:
-  macos_setup: 'TODO: update with your macos_setup configuration'
+  macos_setup: 
+    bootstrap_package: null
+    enable_end_user_authentication: false
+    macos_setup_assistant: null
   macos_updates:
     deadline:
     minimum_version:
