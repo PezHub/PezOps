@@ -53,7 +53,7 @@ team_settings:
     conditional_access_enabled:
     google_calendar:
   secrets:
-  - secret: # TODO: Add your enroll secrets here
+  - secret: SeGjfheu0j3ZLWdbEb31mW+WuMunMPjW
   webhook_settings:
     failing_policies_webhook:
       destination_url:
