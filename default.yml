@@ -15,7 +15,7 @@ agent_options:
   overrides:
 labels:
 org_settings:
-  certificate_authorities: 
+  certificate_authorities: null
     custom_scep_proxy: 
     digicert: 
     hydrant: 
