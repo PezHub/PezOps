@@ -41,7 +41,7 @@ org_settings:
       idp_name: Okta
       issuer_uri:
       metadata:
-      metadata_url: # TODO: Add your MDM end user auth metadata URL here
+      metadata_url: https://dev-16134854.okta.com/app/exkhtcahqpIxIVYps5d7/sso/saml/metadata
     end_user_license_agreement:
     volume_purchasing_program:
   org_info:
@@ -50,7 +50,7 @@ org_settings:
     org_logo_url_light_background:
     org_name: PezHub
   secrets:
-  - secret: # TODO: Add your enroll secrets here
+  - secret: $FLEET_GLOBAL_ENROLL_SECRET
   server_settings:
     ai_features_disabled: false
     deferred_save_host: false
