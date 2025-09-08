@@ -16,10 +16,10 @@ agent_options:
 labels:
 org_settings:
   certificate_authorities: null
-    custom_scep_proxy: 
-    digicert: 
-    hydrant: 
-    ndes_scep_proxy: 
+#    custom_scep_proxy: 
+#    digicert: 
+#    hydrant: 
+#    ndes_scep_proxy: 
   features:
     enable_host_users: true
     enable_software_inventory: true
