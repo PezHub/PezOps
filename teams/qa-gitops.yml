@@ -9,7 +9,7 @@ controls:
     minimum_version:
   macos_settings:
     custom_settings:
-    - path: ../lib/qa-gitops/profiles/qa-disable-guest-account.mobileconfig
+#    - path: ../lib/qa-gitops/profiles/qa-disable-guest-account.mobileconfig
   macos_updates:
     deadline:
     minimum_version:
