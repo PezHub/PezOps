@@ -17,28 +17,9 @@ labels:
 org_settings:
   certificate_authorities:
     digicert: # Available in Fleet Premium
-      - name: DIGICERT_WIFI
-        url: https://one.digicert.com
-        api_token: 123
-        profile_id: 926dbcdd-41c4-4fe5-96c3-b6a7f0da81d8
-        certificate_common_name: $FLEET_VAR_HOST_HARDWARE_SERIAL@example.com
-        certificate_user_principal_names:
-          - $FLEET_VAR_HOST_HARDWARE_SERIAL@example.com
-        certificate_seat_id: $FLEET_VAR_HOST_HARDWARE_SERIAL@example.com
     ndes_scep_proxy: # Available in Fleet Premium
-      url: https://example.com/certsrv/mscep/mscep.dll
-      admin_url: https://example.com/certsrv/mscep_admin/
-      username: Administrator@example.com
-      password: myPassword
     custom_scep_proxy: # Available in Fleet Premium
-      - name: SCEP_VPN
-        url: https://example.com/scep
-        challenge: 123
     hydrant: # Available in Fleet Premium
-      - name: HYDRANT_WIFI
-        url: https://example.hydrantid.com/.well-known/est/abc123
-        client_id: 123
-        client_secret: 123
   features:
     enable_host_users: true
     enable_software_inventory: true
