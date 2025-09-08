@@ -17,7 +17,7 @@ controls:
     bootstrap_package: null
     enable_end_user_authentication: false
     macos_setup_assistant: null
-    script: null
+#    script:
   macos_updates:
     deadline:
     minimum_version:
