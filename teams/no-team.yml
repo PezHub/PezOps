@@ -12,7 +12,7 @@ controls:
     webhook_url:
   macos_settings:
     custom_settings:
-    - path: ../lib/no-team/profiles/qa-disable-guest-account.mobileconfig
+#    - path: ../lib/no-team/profiles/qa-disable-guest-account.mobileconfig
   macos_setup:
     bootstrap_package: null
     enable_end_user_authentication: false
