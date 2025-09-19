@@ -25,7 +25,7 @@ controls:
       - path: ../lib/macos/configuration-profiles/prevent-autologon.mobileconfig
       - path: ../lib/macos/configuration-profiles/secure-terminal-keyboard.mobileconfig
       - path: ../lib/macos/configuration-profiles/passcode-settings-ddm.json
-      - path: ../lib/macos/configuration-profiles/reedtimmer-profile.json
+      - path: ../lib/macos/configuration-profiles/reedtimmer-profile.mobileconfig
 policies:
 queries:
 software:
