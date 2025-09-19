@@ -15,11 +15,6 @@ agent_options:
   overrides:
 labels:
 org_settings:
-  certificate_authorities:
-    digicert: # Available in Fleet Premium
-    ndes_scep_proxy: # Available in Fleet Premium
-    custom_scep_proxy: # Available in Fleet Premium
-    hydrant: # Available in Fleet Premium
   features:
     enable_host_users: true
     enable_software_inventory: true

@@ -1,5 +1,5 @@
 controls:
-  enable_disk_encryption: false
+  enable_disk_encryption: true
   ios_updates:
     deadline:
     minimum_version:
