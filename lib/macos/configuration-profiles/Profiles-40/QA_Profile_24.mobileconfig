@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>PayloadType</key>
+                <string>com.apple.configuration.management.test</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>PayloadIdentifier</key>
+                <string>com.yourorg.qa.testpayload.24</string>
+                <key>PayloadUUID</key>
+                <string>1DCD8143-6BEE-4266-B073-08871A9779F8</string>
+                <key>PayloadDisplayName</key>
+                <string>QA Test Payload 24</string>
+                <key>Echo</key>
+                <string>QA-Test</string>
+            </dict>
+        </array>
+        <key>PayloadDisplayName</key>
+        <string>QA Custom Config Profile 24</string>
+        <key>PayloadIdentifier</key>
+        <string>com.yourorg.qa.profile.24</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>A5F3E814-1C68-4C73-BEF8-C27D6FEE01E6</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>

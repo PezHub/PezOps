@@ -6,6 +6,27 @@ agent_options:
 controls:
   macos_settings:
     custom_settings: 
+      - path: ../lib/macos/configuration-profiles/date-time.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-content-caching.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-guest-account.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-guest-shares.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-internet-sharing.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-media-sharing.mobileconfig
+      - path: ../lib/macos/configuration-profiles/disable-safari-safefiles.mobileconfig
+      - path: ../lib/macos/configuration-profiles/enable-doh.mobileconfig
+      - path: ../lib/macos/configuration-profiles/enable-firewall-logging.mobileconfig
+      - path: ../lib/macos/configuration-profiles/enable-gatekeeper.mobileconfig
+      - path: ../lib/macos/configuration-profiles/enforce-library-validation.mobileconfig
+      - path: ../lib/macos/configuration-profiles/firewall.mobileconfig
+      - path: ../lib/macos/configuration-profiles/full-disk-access-for-fleetd.mobileconfig
+      - path: ../lib/macos/configuration-profiles/limit-ad-tracking.mobileconfig
+      - path: ../lib/macos/configuration-profiles/misc.mobileconfig
+      - path: ../lib/macos/configuration-profiles/prevent-autologon.mobileconfig
+      - path: ../lib/macos/configuration-profiles/secure-terminal-keyboard.mobileconfig
+      - path: ../lib/macos/declaration-profiles/passcode-settings.json
+      - path: ../lib/macos/declaration-profiles/software-update-settings.json
+      - path: ../lib/macos/declaration-profiles/reedtimmer-profile.json
 policies:
 queries:
 software:

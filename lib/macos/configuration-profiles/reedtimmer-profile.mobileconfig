@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1">
+  <dict>
+    <key>PayloadUUID</key>
+    <string>DFC8CEC8-49DE-4FF6-874F-8B613F1CA4A9</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadOrganization</key>
+    <string>REDACTED, Inc.</string>
+    <key>PayloadIdentifier</key>
+    <string>DFC8CEC8-49DE-4FF6-874F-8B613F1CA4A9</string>
+    <key>PayloadDisplayName</key>
+    <string>Network: network name - REDACTED</string>
+    <key>PayloadDescription</key>
+    <string>Joins the REDACTED SSID for our REDACTED offices</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadEnabled</key>
+    <true/>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadUUID</key>
+        <string>DBD98BFF-120A-45D4-B741-81EE79B2923E</string>
+        <key>PayloadType</key>
+        <string>com.apple.wifi.managed</string>
+        <key>PayloadOrganization</key>
+        <string>REDACTED, Inc.</string>
+        <key>PayloadIdentifier</key>
+        <string>DBD98BFF-120A-45D4-B741-81EE79B2923E</string>
+        <key>PayloadDisplayName</key>
+        <string>WiFi REDACTED</string>
+        <key>PayloadDescription</key>
+        <string/>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>HIDDEN_NETWORK</key>
+        <false/>
+        <key>Password</key>
+        <string>$FLEET_SECRET_REDACTED</string>
+        <key>EncryptionType</key>
+        <string>WPA</string>
+        <key>AutoJoin</key>
+        <true/>
+        <key>CaptiveBypass</key>
+        <false/>
+        <key>ProxyType</key>
+        <string>None</string>
+        <key>SetupModes</key>
+        <array/>
+        <key>SSID_STR</key>
+        <string>REDACTED</string>
+        <key>Interface</key>
+        <string>BuiltInWireless</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
