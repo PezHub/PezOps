@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadContent</key>
+      <dict>
+        <key>com.fleet.idp.info</key>
+        <dict>
+          <key>Forced</key>
+          <array>
+            <dict>
+              <key>mcx_preference_settings</key>
+              <dict>
+                <key>idp_groups</key>
+                <string>$FLEET_VAR_HOST_END_USER_IDP_GROUPS</string>
+                <key>idp_username</key>
+                <string>$FLEET_VAR_HOST_END_USER_IDP_USERNAME</string>
+                <key>idp_department</key>
+                <string>$FLEET_VAR_HOST_END_USER_IDP_DEPARTMENT</string>
+                <key>idp_fullname</key>
+                <string>$FLEET_VAR_HOST_END_USER_IDP_FULL_NAME</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>PayloadDisplayName</key>
+      <string>Managed Preferences #1</string>
+      <key>PayloadIdentifier</key>
+      <string>com.apple.ManagedClient.preferences.6DAA78CD-F89B-41D0-850F-3CA29300E6FB</string>
+      <key>PayloadType</key>
+      <string>com.apple.ManagedClient.preferences</string>
+      <key>PayloadUUID</key>
+      <string>6DAA78CD-F89B-41D0-850F-3CA29300E6FB</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>IdP Managed Preferences</string>
+  <key>PayloadIdentifier</key>
+  <string>fleet.6413C522-DF69-45CA-9113-B1843E6145BC</string>
+  <key>PayloadOrganization</key>
+  <string>Fleet</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>6413C522-DF69-45CA-9113-B1843E6145BC</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>

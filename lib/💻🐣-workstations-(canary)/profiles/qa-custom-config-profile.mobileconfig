@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.configuration.management.test</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.yourorg.qa.testpayload</string>
+            <key>PayloadUUID</key>
+            <string>11111111-2222-3333-4444-555555555555</string>
+            <key>PayloadDisplayName</key>
+            <string>QA Test Payload</string>
+            <key>Echo</key>
+            <string>QA-Test</string>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>QA Custom Config Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.yourorg.qa.profile</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

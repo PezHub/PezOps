@@ -1,7 +1,0 @@
-{
-    "Type": "com.apple.configuration.management.test",
-    "Payload": {
-        "Echo": "KMFDDM"
-    },
-    "Identifier": "io.macadmins.config.test"
-}
