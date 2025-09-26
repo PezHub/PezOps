@@ -15,27 +15,6 @@ agent_options:
   overrides:
 labels:
 org_settings:
-  certificate_authorities:
-    custom_scep_proxy:
-    digicert:
-    - api_token: 01c83396e8e86350a5e1a8fa13_1cec34383eb86e776b4942d49623cf49cbc5c8c03286730b5500d1c56d1e4262
-      certificate_common_name: $FLEET_VAR_HOST_HARDWARE_SERIAL@fleetdm.com
-      certificate_seat_id: $FLEET_VAR_HOST_HARDWARE_SERIAL@fleetdm.com
-      certificate_user_principal_names:
-      - $FLEET_VAR_HOST_HARDWARE_SERIAL@fleetdm.com
-      name: WIFI_CERTIFICATE
-      profile_id: e71a1f4f-dced-4992-a0d5-a93f3b724ea3
-      url: https://demo.one.digicert.com
-    hydrant:
-    - client_id: 6d500faba9295bfbe6efdeabf348f5d7
-      client_secret: 6d500faba9295bfbe6efdeabf348f5d7
-      name: WIFI_CERTIFICATE_ABC
-      url: https://acm-stage.hydrantid.com/.well-known/est/552b5178-4e14-49a9-9408-e4cab4355db7
-    - client_id: 6d500faba9295bfbe6efdeabf348f5d7
-      client_secret: 6d500faba9295bfbe6efdeabf348f5d7
-      name: WIFI_CERTIFICATE
-      url: https://acm-stage.hydrantid.com/.well-known/est/552b5178-4e14-49a9-9408-e4cab4355db7
-    ndes_scep_proxy:
   features:
     enable_host_users: true
     enable_software_inventory: true
