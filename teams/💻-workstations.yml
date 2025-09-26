@@ -26,6 +26,7 @@ controls:
     - path: ../lib/💻-workstations/profiles/ddmprofile1.json
     - path: ../lib/💻-workstations/profiles/iomacadminsconfigtest.json
     - path: ../lib/💻-workstations/profiles/turn-on-set-time-and-date-automatically.mobileconfig
+    - path: ../lib/💻-workstations/profiles/reedtimmer-profile.mobileconfig
   macos_updates:
     deadline: "2024-01-01"
     minimum_version: 15.6.0
