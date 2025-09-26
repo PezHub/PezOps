@@ -23,7 +23,6 @@ controls:
     minimum_version:
   macos_settings:
     custom_settings:
-    - path: ../lib/💻-workstations/profiles/bluetoothsettings.xml
     - path: ../lib/💻-workstations/profiles/ddmprofile1.json
     - path: ../lib/💻-workstations/profiles/iomacadminsconfigtest.json
     - path: ../lib/💻-workstations/profiles/turn-on-set-time-and-date-automatically.mobileconfig
@@ -36,6 +35,9 @@ controls:
   - path: "../lib/💻-workstations/scripts/uninstall-fleetd-windows.ps1"
   windows_enabled_and_configured: true
   windows_require_bitlocker_pin: false
+  windows_settings:
+    custom_settings:
+    - path: ../lib/💻-workstations/profiles/bluetoothsettings.xml
   windows_updates:
     deadline_days: 0
     grace_period_days: 0
