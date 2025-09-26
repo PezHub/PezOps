@@ -44,7 +44,7 @@ jobs:
           FLEET_WORKSTATIONS_CANARY_ENROLL_SECRET: ${{ secrets.FLEET_WORKSTATIONS_CANARY_ENROLL_SECRET }}
           FLEET_SECRET_EXAMPLE123: example
           FLEET_SECRET_PASSWORD: passwordsecret
-          $FLEET_SECRET_REED: reedsecret
+          FLEET_SECRET_REED: reedsecret
 
 
 
