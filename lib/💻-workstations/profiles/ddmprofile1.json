@@ -1,0 +1,7 @@
+{
+    "Type": "com.apple.configuration.management.test",
+    "Payload": {
+        "Echo": "DDM1"
+    },
+    "Identifier": "io.fleet.config.test1"
+}
