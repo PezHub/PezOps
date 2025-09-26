@@ -21,7 +21,6 @@ controls:
   ipados_updates:
     deadline:
     minimum_version:
-  macos_setup: 'TODO: update with your macos_setup configuration'
   macos_updates:
     deadline: "2024-01-01"
     minimum_version: 15.6.0
