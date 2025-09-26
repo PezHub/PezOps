@@ -23,9 +23,6 @@ controls:
     minimum_version:
   macos_settings:
     custom_settings:
- #   - path: "../lib/💻🐣-workstations-(canary)/profiles/digicert-profile.mobileconfig"
- #   - path: "../lib/💻🐣-workstations-(canary)/profiles/idp-managed-preferences.mobileconfig"
- #   - path: "../lib/💻🐣-workstations-(canary)/profiles/qa-custom-config-profile.mobileconfig"
   macos_updates:
     deadline:
     minimum_version:
