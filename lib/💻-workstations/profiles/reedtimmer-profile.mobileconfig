@@ -44,7 +44,7 @@
         <key>HIDDEN_NETWORK</key>
         <false/>
         <key>Password</key>
-        <string>FLEET_SECRET_REED</string>
+        <string>$FLEET_SECRET_GABE</string>
         <key>EncryptionType</key>
         <string>WPA</string>
         <key>AutoJoin</key>
