@@ -23,10 +23,3 @@ controls:
 name: No team
 policies:
 software:
-team_settings:
-  webhook_settings:
-    failing_policies_webhook:
-      destination_url:
-      enable_failing_policies_webhook: false
-      host_batch_size: 0
-      policy_ids:
