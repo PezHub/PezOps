@@ -15,6 +15,7 @@ agent_options:
   overrides:
 labels:
 org_settings:
+  certificate_authorities:
   features:
     enable_host_users: true
     enable_software_inventory: true
